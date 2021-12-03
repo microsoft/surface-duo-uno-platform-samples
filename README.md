@@ -1,14 +1,24 @@
-# Project
+# Surface Duo samples for Uno Platform
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+The following samples can be used with [Uno Platform 4.0 foldable support](https://devblogs.microsoft.com/surface-duo/uno-platform-android-foldable/) to build apps for Surface Duo, Surface Duo 2, and other foldable devices.
 
-As the maintainer of this project, please make a few updates:
+## Samples App
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+Part of the Uno Platform source, [SamplesApp](https://github.com/unoplatform/uno/tree/master/src/SamplesApp) includes these test pages to see how the Uno.UI.DualScreen or Uno.UI.Foldable packages work: 
+
+- **TwoPaneView > MUX_Test** 
+- **Windows.UI.ViewManagement > ApplicationViewMode**
+- **Windows.UI.ViewManagement > ApplicationViewSpanningRects**
+
+## SimpleWinUICalculator
+
+The [SimpleWinUICalculator](https://github.com/conceptdev/SimpleWinUICalculator) is based on a community sample, using TwoPaneView to create a dual-screen experience
+
+## ToyCar
+
+Follow these [get started instructions](https://devblogs.microsoft.com/surface-duo/get-started-uno-platform/) to build a simple dual-screen aware demo from [this source](https://github.com/unoplatform/Uno.Samples/tree/master/UI/ToyCar).
+
+
 
 ## Contributing
 
